@@ -6,6 +6,3 @@ Tous les paramètres et fonctionnalité du BACKOFFICE de la DB est dans le dossi
 
 Les fonctionnalitées ligthbox est également présente sur le site, sur les images.
 
-```html
-https://peterblf.github.io/site_ecommerce_factice/
-```
