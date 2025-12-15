@@ -1,0 +1,28 @@
+/* LIGTHBOX IMG */
+
+#lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.86);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lightbox img{
+    height: 80%;
+    width: auto;
+}
+#lightbox img#close{
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+#lightbox img#close:hover{
+    cursor: pointer;
+}

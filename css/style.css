@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+/* ##################################
+
+----------PARTIE NAVBAR---------
+
+################################## */
+nav {
+    top: 0;
+    position: sticky;
+    background-color: #091a17;
+    border-bottom: 2px solid #1a3431;
+    width: 100%;
+    max-height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+nav img {
+    height: 100px;
+    padding: 2%;
+    width: 30%;
+}
+nav a {
+    width: 70%;
+    margin: 15px auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ##################################
+
+---Partie HEADER = VIDEO DE PRESENTATION---
+
+################################## */
+header {
+    padding: 8em 7em;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    border-bottom: 2px solid #1a3431;
+    overflow-x: hidden;
+}
+header h2 {
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0.1em 0;
+    color: #93c748;
+}
+.bouton {
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #93c748;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.bouton:hover {
+    background-color: #93c748;
+    color: black;
+}
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Derrière le contenu */
+    pointer-events: none;
+    object-fit: cover;
+}
+
+
+/* ##################################
+
+---Partie VITRINE = INFORMATIONS DE VENTE---
+
+################################## */
+main {
+    display: flex;
+    width: 100%;
+    background-color: #061314;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+}
+main h1{
+    margin: 0.5em 1em;
+    font-size: 5em;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    color: #8cbc4d;
+    text-align: center;
+}
+main img {
+    width: 100%;
+    border-bottom: 2px solid #1a3431;
+}
+main section {
+    overflow-x: hidden;
+    border: 2px solid #1a3431;
+    width: 24.5%;
+    margin: 3em 1.2em;
+}
+
+main section button {
+    background-color: transparent;
+    border: 2px solid #04AA6D;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+}
+main section button:hover {
+    background-color: #04AA6D;
+    color: black;
+}
+
+main section h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin: 0 1em;
+    width: 100%;
+}
+main section p {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 2% 2.2em 4%;
+}
+
+
+/* ##################################
+
+---Partie ASIDE = CONTACT DES DEALER---
+
+################################## */
+aside {
+    width: 100%;
+    background-color: #091a17;
+    border-bottom: 2px solid #1a3431;
+}
+aside h1 {
+    text-align: center;
+    margin: 0.5em;
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+    color: #8cbc4d;
+}
+aside section {
+    padding: 1em;
+    width: 440px; /* changer la taille de la section */
+    border: 2px solid #1a3431;
+    border-radius: 15px;
+    margin: 2em 1cm;
+    height: 100%;
+}
+aside .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+aside section img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+aside section h3 {
+    color: #8cbc4d;
+    font-size: 2em;
+    margin: 10px 1em;
+}
+.info {
+    font-size: 17px;
+    margin: 10px 1.8em;
+    display: flex;
+    color: gray;
+    gap: 40px;
+}
+aside button {
+    background-color: transparent;
+    border: 2px solid #8cbc4d;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    margin: 20px 2em 2em;
+}
+aside button:hover {
+    background-color: #8cbc4d;
+    color: black;
+}
+
+
+/* ##################################
+
+---Partie FOOTER = COPYRIGTH + Réseaux Sociaux---
+
+################################## */
+footer {
+    overflow: hidden;
+    width: 100%;
+    background-color: #061314;
+    display: flex;
+}
+.material-icons {
+    color: #8cbc4d ;
+    font-size: 50px;
+}
+footer section {
+    color: white;
+    width: 100%;
+    border: 2px solid #1a3431;
+    margin: 2em;
+}
+footer h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0.5em;
+}
+.about-us {
+    width: 70%;
+    padding: 1em 1em;
+}
+.about-us h3 {
+    padding: 0 1em;
+    text-decoration: underline;
+}
+.about-us p {
+    font-family: 'Arial', sans-serif;
+    width: 70%;
+    margin: 20px 20px;
+}
+.about-us span {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.copyrigth {
+    width: 100%;
+    background-color: #091a17;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+
+/* ##################################
+
+----------PAGE CONTACT---------
+
+################################## */
+.forum {
+    width: 100%;
+    background-color: #091a17;
+    font-size: 40px;
+    border-bottom: 2px solid #1a3431;
+}
+.forum h1 {
+    text-align: center;
+    color: orange;
+    margin: 30px;
+    font-family: 'Arial', sans-serif;
+}
+.forum form {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.forum input {
+    margin: 1em 1em;
+    padding: 1em;
+}
+
+
+/* ##################################
+
+---A PROPOS LISTE DES UTILISATEURS---
+
+################################## */
+.liste {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #061314;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.liste h1{
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    color: orange;
+}
+
+
+/* ##################################
+
+----------A PRPOS DE HEIZEN---------
+
+################################## */
+.apropos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #091a17;
+    color: #f0f0f0;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+.apropos-content {
+    width: 100%;
+    text-align: left;
+}
+.apropos h1 {
+    color: orange;
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.apropos p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.apropos p strong {
+    color: #7fff00;
+}
+.apropos p em {
+    font-style: italic;
+    color: #ccc;
+}
+.apropos .emoji {
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+
+/* ##################################
+
+----------PAGES PRODUITS---------
+
+################################## */
+.produit {
+    border-radius: 15px;
+    background-color: #091a17;
+    width: 80%;
+    margin: 80px 170px;
+    display: flex;
+}
+.produit img {
+    border-radius: 15px;
+    width: 500px;
+}
+.sect {
+    margin: auto;
+    width: 40%;
+    font-family: 'Arial', sans-serif;
+}
+.title h1{
+    color: #7fff00;
+    font-size: 50px;
+}
+.title p{
+    margin-top: 25px;
+    color: grey;
+    width: 70%;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px 0 0;
+    padding-top: 50px;
+    font-family: 'Arial', sans-serif;
+    border-top: 1px solid lightgrey;
+}
+.info p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.produit span {
+    color: mediumpurple;
+}

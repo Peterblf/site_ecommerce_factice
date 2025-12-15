@@ -1,0 +1,170 @@
+/* RESPONSIVE HEADER */
+
+@media screen and (max-width: 1024px) {
+    header h2 {
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 600px) {
+    header h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .bouton {
+        font-size: 18px;
+        padding: 12px 24px;
+        color: black;
+    }
+}
+
+/* RESPONSIVE FOOTER */
+
+@media screen and (max-width: 1024px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 1em;
+    }
+
+    footer section {
+      width: 90%;
+      margin: 1em 0;
+      text-align: center;
+    }
+
+    .about-us {
+      width: 100%;
+      padding: 1em;
+    }
+
+    .about-us p {
+      width: 90%;
+      margin: 1em auto;
+    }
+
+    .material-icons {
+      font-size: 40px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    footer {
+      padding: 0.5em;
+    }
+
+    footer h3 {
+      flex-direction: column;
+      font-size: 1.2em;
+      gap: 10px;
+    }
+
+    .material-icons {
+      font-size: 30px;
+    }
+
+    .about-us p {
+      font-size: 0.9em;
+      width: 100%;
+    }
+
+    footer section {
+      margin: 1em 0;
+      padding: 1em 0.5em;
+    }
+  }
+
+  /* RESPONSIVE MAIN */
+
+@media screen and (max-width: 1440px) {
+    main section {
+      width: 30%;
+      margin: 2em;
+    }
+
+    main section h3 {
+      font-size: 1.6em;
+    }
+  }
+@media screen and (max-width: 1024px) {
+    main section {
+      width: 45%;
+      margin: 1.5em;
+    }
+
+    main h1 {
+      font-size: 3em;
+    }
+
+    main section h3 {
+      font-size: 1.4em;
+    }
+
+    main section p {
+      font-size: 0.95em;
+    }
+
+    main section button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    main section {
+      width: 90%;
+      margin: 1em auto;
+    }
+
+    main h1 {
+      font-size: 2em;
+      padding: 0 1em;
+    }
+
+    main section h3 {
+      font-size: 1.2em;
+      margin: 0.5em 1em;
+    }
+
+    main section p {
+      font-size: 0.9em;
+      margin: 0 1em 1em;
+    }
+
+    main section button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+
+
+/* RESPONSIVE ASIDE */
+
+@media screen and (max-width: 1024px) {
+      aside section {
+          width: 440px;
+          margin: 2em;
+      }
+
+      aside .container {
+          justify-content: center;
+      }
+  }
+
+
+/* RESPONSIVE APROPOS */
+
+@media screen and (max-width: 600px) {
+      .produit {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+      .sect {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+      }
+      .produit img {
+        text-align: center;
+        width: 150px;
+      }
+  }
