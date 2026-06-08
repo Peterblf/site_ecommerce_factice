@@ -1,4 +1,4 @@
-# Site e-commerce factice, projet universitaire
+# Site e-commerce factice
 
 Ce site représente la vitrine officielle de la société fictive du jeu Schedule1, un jeu vidéo immersif où vous incarnez un vendeur de "plante". Nous avons imaginé le site comme si cette entreprise existait réellement, avec son identité, ses produits et ses services.
 
